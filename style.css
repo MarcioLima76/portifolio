@@ -92,26 +92,6 @@
             animation: moveBanner 1s 0.5s;
         }
         
-        .banner button {
-            color: white;
-            font-family: var(--font-action);
-            font-size: 1rem;
-            text-transform: uppercase;
-            letter-spacing: .2rem;
-            background: -webkit-linear-gradient(to right, #4286f4, #373B44);
-            background: linear-gradient(to right, #4286f4, #373B44);
-            padding: 1rem 1rem;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            animation: moveBanner 1s 0.3s;
-        }
-        
-        .banner button:hover {
-            opacity: 0.8;
-            color: black;
-        }
-        
         @keyframes moveBanner {
             0% {
                 transform: translateY(10rem) rotateY(-30deg);
@@ -128,6 +108,8 @@
             position: fixed;
             top: 0;
             right: 0rem;
+            opacity: 0.8;
+            animation: moveBanner 1s 0.5s;
         }
         
         .menu {
@@ -144,8 +126,9 @@
         
         .menu-link {
             font-family: var(--font-action);
-            font-size: 2.2rem;
+            font-size: 2.5rem;
             color: rgb(219, 214, 214);
+            line-height: 5rem;
         }
         
         .menu-link:hover {
