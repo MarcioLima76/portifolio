@@ -68,7 +68,7 @@
         .banner {
             position: absolute;
             top: 5%;
-            left: 3%;
+            left: 2%;
         }
         
         .banner h1 {
@@ -117,7 +117,7 @@
         .menu {
             position: absolute;
             top: 40%;
-            left: 50%;
+            left: 45%;
             transform: translate(-50%, -50%);
         }
         
