@@ -103,11 +103,11 @@
         }
         
         .sidebar {
-            width: 18rem;
+            width: 15rem;
             height: 100vh;
             position: fixed;
             top: 0;
-            right: -18rem;
+            right: -16rem;
         }
         
         .sidebar.show-menu {
