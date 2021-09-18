@@ -103,11 +103,11 @@
         }
         
         .sidebar {
-            width: 15rem;
+            width: 20rem;
             height: 100vh;
             position: fixed;
             top: 0;
-            right: -16rem;
+            right: -20rem;
         }
         
         .sidebar.show-menu {
@@ -128,7 +128,7 @@
         
         .menu-link {
             font-family: var(--font-action);
-            font-size: 2rem;
+            font-size: 2.2rem;
             color: rgb(219, 214, 214);
             line-height: 5rem;
         }
