@@ -32,26 +32,20 @@
             <div class="banner">
                 <h1> Web Developer </h1>
                 <p> & Web Designer</p>
-
+                <button class="btn">Saiba Mais</button>
             </div>
         </header>
 
         <aside class="sidebar">
             <nav>
                 <ul class="menu">
-
+                    <li class="menu-item"><a href="#conhecimentos" class="menu-link">Conhecimentos</a>
                     </li>
-                    <li class="menu-item">
-                        <a href="#" class="menu-link">Conhecimentos</a>
+                    <li class="menu-item"><a href="#projetos" class="menu-link">Projetos</a>
                     </li>
-                    <li class="menu-item">
-                        <a href="#" class="menu-link">Projetos</a>
+                    <li class="menu-item"><a href="#contato" class="menu-link">Contato</a>
                     </li>
-                    <li class="menu-item">
-                        <a href="#" class="menu-link">Contato</a>
-                    </li>
-                    <li class="menu-item">
-                        <a href="#" class="menu-link">Orçamento</a>
+                    <li class="menu-item"><a href="#orcamento" class="menu-link">Orçamento</a>
                     </li>
 
                 </ul>
@@ -66,7 +60,7 @@
             </div>
         </aside>
 
-        <section class="sessao-conhecimentos">
+        <section class="sessao-conhecimentos" id="conhecimentos">
             <div class="sessao-header">
                 <h1>Conhecimentos</h1>
             </div>
@@ -138,7 +132,7 @@
             </div>
         </section>
 
-        <section class="sessao-projetos">
+        <div class="sessao-projetos" id="projetos">
             <div class="sessao-header">
                 <h1>Projetos</h1>
             </div>
@@ -179,60 +173,80 @@
                     </div>
                 </div>
             </div>
-    </div>
+        </div>
 
-    </section>
-    <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-    <section class="sessao-contato">
-        <div class="contato-wrapper">
-            <div class="contato-left"></div>
-            <div class="contato-right">
-                <h1>Contato</h1>
+        <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+        <section class="sessao-contato" id="contato">
+            <div class="contato-wrapper">
+                <div class="contato-left"></div>
+                <div class="contato-right">
+                    <h1>Contato</h1>
+                    <form>
+                        <div class="input-group">
+                            <input type="text" class="field" id="nome">
+                            <label for="nome" class="field-label">Nome</label>
+                        </div>
+                        <div class="input-group">
+                            <input type="text" class="field" id="email">
+                            <label for="email" class="field-label">E-mail</label>
+                        </div>
+                        <div class="input-group">
+                            <textarea class="field" id="mensagem"></textarea>
+                            <label for="mensagem" class="field-label">Mensagem</label>
+                        </div>
+                        <button type="submit" class="btn btn-submit">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section class="sessao-orcamento" id="orcamento">
+            <div class="orcamento-wrapper">
+                <h1>Faça um orçamento</h1>
                 <form>
-                    <div class="input-group">
-                        <input type="text" class="field" id="nome">
-                        <label for="nome" class="field-label">Nome</label>
+                    <label for="qtde">Qtde de Páginas</label>
+                    <input type="number" min="1" name="qtde" id="qtde">
+                    <label for="JS">Preciso de um script JS</label>
+                    <input type="checkbox" name="js" id="js">
+                    <label>Layout</label>
+                    <div class="group-layout">
+                        <div>
+                            <input type="radio" name="layout" id="layout-sim">
+                            <label for="layout-sim">Preciso de um Layout</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="layout" id="layout-nao">
+                            <label for="layout-nao">Já tenho um  Layout</label>
+                        </div>
                     </div>
-                    <div class="input-group">
-                        <input type="text" class="field" id="email">
-                        <label for="email" class="field-label">E-mail</label>
-                    </div>
-                    <div class="input-group">
-                        <textarea class="field" id="mensagem"></textarea>
-                        <label for="mensagem" class="field-label">Mensagem</label>
-                    </div>
-                    <button type="submit" class="btn btn-submit">Enviar</button>
+                    <label for="prazo">Prazo</label>
+                    <input type="range" name="prazo" id="prazo" min="1" max="10">
+                    <label id="preco">R$0,00</label>
+                    <button class="btn btn-orcamento" type=" submit ">Enviar</button>
                 </form>
             </div>
-        </div>
-    </section>
-    <section class="sessao-orcamento">
-        <div class="orcamento-wrapper">
-            <h1>Faça um orçamento</h1>
-            <form>
-                <label for="qtde">Qtde de Páginas</label>
-                <input type="number" min="1" name="qtde" id="qtde">
-                <label for="JS">Preciso de um script JS</label>
-                <input type="checkbox" name="js" id="js">
-                <label>Layout</label>
-                <div class="group-layout">
-                    <div>
-                        <input type="radio" name="layout" id="layout-sim">
-                        <label for="layout-sim">Preciso de um Layout</label>
-                    </div>
-                    <div>
-                        <input type="radio" name="layout" id="layout-nao">
-                        <label for="layout-nao">Já tenho um  Layout</label>
-                    </div>
+        </section>
+        <footer>
+            <div class="footer-content">
+                <p>
+                    Copyright &copy; 2021. MNL- Marcio Nogueira deLima. All rights reserved.
+                </p>
+                <div class="social-list">
+                    <ul>
+                        <li><a href="https://www.instagram.com/marcio.lima.75873/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/marcio-lima-45077376/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                        <li> <a href="https://github.com/MarcioLima76" target="_blank"><i class="fa fa-github-alt"></i></a></li>
+                    </ul>
+
                 </div>
-                <label for="prazo">Prazo</label>
-                <input type="range" name="prazo" id="prazo">
-                <button class="btn btn-orcamento" type=" submit ">Enviar</button>
-            </form>
-        </div>
-    </section>
+            </div>
+        </footer>
+        <a href="" id="link-topo">
+            <i class="fas fa-arrow-up"></i>
+        </a>
     </div>
 </body>
 <script src="script.js "></script>
+
+</html>
 
 </html>

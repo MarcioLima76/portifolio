@@ -13,6 +13,10 @@
         --font-action: "Mulish", serif;
     }
     
+    html {
+        scroll-behavior: smooth;
+    }
+    
     .hamburguer {
         /*background-color: red;*/
         width: 2rem;
@@ -90,6 +94,27 @@
         font-weight: 300;
         margin-bottom: 1rem;
         animation: moveBanner 1s 0.5s;
+    }
+    
+    .banner button {
+        color: #FFF;
+        font-family: var(--font-action);
+        font-size: 1rem;
+        text-transform: uppercase;
+        letter-spacing: .2rem;
+        background-color: #6a3093;
+        background: -webkit-linear-gradient(to right, #a044ff, #6a3093);
+        background: linear-gradient(to left, #a044ff, #6a3093);
+        padding: 1rem 1rem;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        animation: moveBanner 1s 0.3s;
+    }
+    
+    .banner button:hover {
+        opacity: 0.8;
+        color: black;
     }
     
     @keyframes moveBanner {
@@ -512,4 +537,52 @@
         width: 10rem;
         left: 5rem;
         font-size: 1.2rem;
+    }
+    
+    footer {
+        width: 100%;
+        height: 7rem;
+        background-color: #17181b;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .footer-content {
+        width: 60%;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .footer-content p {
+        font-family: var(--font-secundary);
+        color: #eee;
+        font-size: 1.2rem;
+    }
+    
+    .social-list a {
+        margin: 0 2rem;
+        color: #eee;
+        font-size: 1.5rem;
+    }
+    
+    .social-list ul {
+        display: flex;
+    }
+    
+    #link-topo {
+        position: fixed;
+        right: 3rem;
+        bottom: 1rem;
+        width: 4rem;
+        height: 4rem;
+        background: #6a3093;
+        background: -webkit-linear-gradient(to right, #a044ff, #6a3093);
+        background: linear-gradient(to left, #a044ff, #6a3093);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        border-radius: 3rem;
+        box-shadow: 0 0.1rem 0.6rem#00000009;
     }
