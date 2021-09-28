@@ -5,246 +5,250 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
     <script src="https://kit.fontawesome.com/d4e5c6cbd6.js" crossorigin="anonymous"></script>
     <title>Portifolio</title>
-
+    <link rel="stylesheet" type="text/css" media="screen and (min-width: 0px)" href="small.css">
+    <link rel="stylesheet " type="text/css " media="screen and (min-width: 600px)" href="medium.css">
+    <link rel="stylesheet " type="text/css " media="screen and (min-width: 1200px)" href="large.css">
 
 </head>
 
 <body>
+    <section class="principal">
 
-    <div class="container">
+        <div class="container">
 
-        <div class="hamburguer">
-            <div class="line" id="line1"></div>
-            <div class="line" id="line2"></div>
-            <div class="line" id="line3"></div>
-        </div>
-        <header>
-            <div class="img-wrapper">
-                <img src="images/bg.jpg" alt="">
+            <div class="hamburguer">
+                <div class="line" id="line1"></div>
+                <div class="line" id="line2"></div>
+                <div class="line" id="line3"></div>
             </div>
-            <div class="banner">
-                <h1> Web Developer </h1>
-                <p> & Web Designer</p>
-                <button class="btn">Saiba Mais</button>
+            <header>
+                <div class="img-wrapper">
+                    <img src="images/bg.jpg" alt="">
+                </div>
+                <div class="banner">
+                    <h1> Web Developer </h1>
+                    <p> & Web Designer</p>
+                    <a href="Marcio TI- 2021.pdf" target="_blank"><button class="btn">Sobre Mim</button></a>
+
+                </div>
+            </header>
+
+            <aside class="sidebar">
+                <nav>
+                    <ul class="menu">
+                        <li class="menu-item"><a href="#conhecimentos" class="menu-link">Conhecimentos</a>
+                        </li>
+                        <li class="menu-item"><a href="#projetos" class="menu-link">Projetos</a>
+                        </li>
+                        <li class="menu-item"><a href="#contato" class="menu-link">Contato</a>
+                        </li>
+                        <li class="menu-item"><a href="#orcamento" class="menu-link">Orçamento</a>
+                        </li>
+
+                    </ul>
+                </nav>
+                <div class="social-media">
+
+                    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+                    <a href="https://www.instagram.com/marcio.lima.75873/" target="_blank"><i class="fa fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/marcio-lima-45077376/" target="_blank"><i class="fa fa-linkedin"></i></a>
+                    <a href="https://github.com/MarcioLima76" target="_blank"><i class="fa fa-github-alt"></i></a>
+
+                </div>
+            </aside>
+
+            <section class="sessao-conhecimentos" id="conhecimentos">
+                <div class="sessao-header">
+                    <h1>Conhecimentos</h1>
+                </div>
+                <div class="conhecimentos">
+                    <div class="conhecimento">
+                        <div class="conhecimento-header">
+                            <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+                            <i class="fa fa-html5 "></i>
+                            <h3>HTML</h3>
+                        </div>
+                        <div class="conhecimento-text">
+                            <p>Conhecimentos em (Tags, Semântica, Formatações, Listas, Links, disposição de imagens e vídeos).
+                            </p>
+                        </div>
+                    </div>
+                    <div class="conhecimento">
+                        <div class="conhecimento-header">
+                            <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+                            <i class="fa fa-css3"></i>
+                            <h3>CSS</h3>
+                        </div>
+                        <div class="conhecimento-text">
+                            <p>Conhecimentos em “Cascading Style Sheets” (Estilos Inline, Internos e Externos).</p>
+                        </div>
+                    </div>
+                    <div class="conhecimento">
+                        <div class="conhecimento-header">
+                            <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+                            <i class="fa fa-react"></i>
+                            <h3>React JS</h3>
+                        </div>
+                        <div class="conhecimento-text">
+                            <p>Conhecimentos em JSX, DOM & DOM Virtual e Componentes do React JS</p>
+                        </div>
+                    </div>
+                    <div class="conhecimento">
+                        <div class="conhecimento-header">
+                            <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+                            <i class="fa fa-js-square"></i>
+                            <h3>Java Script</h3>
+                        </div>
+                        <div class="conhecimento-text">
+                            <p> Condições e Repetições, Arrays, Loops e eventos em Java Script.</p>
+                        </div>
+                    </div>
+                    <div class="conhecimento">
+                        <div class="conhecimento-header">
+                            <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+                            <i class="fab fa-python"></i>
+                            <h3>Python</h3>
+                        </div>
+                        <div class="conhecimento-text">
+                            <p> Tipos primitivos de saída de dados, Variáveis, Operadores, Condicionais, Loops e Repetições em Python.</p>
+                        </div>
+                    </div>
+                    <div class="conhecimento">
+                        <div class="conhecimento-header">
+                            <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+                            <i class="fas fa-database"></i>
+                            <h3>Banco de dados</h3>
+                        </div>
+                        <div class="conhecimento-text">
+                            <p> Postgre, SQL, Microsoft Workbench.</p>
+                        </div>
+                    </div>
+                    <div class="conhecimentos-img-wrapper">
+                        <img src="images/conhecimentos.jpg" alt="imagem conhecimentos">
+                    </div>
+                </div>
+            </section>
+
+            <div class="sessao-projetos" id="projetos">
+                <div class="sessao-header">
+                    <h1>Projetos</h1>
+                </div>
+                <div class="projetos">
+                    <div class="card">
+                        <div class=" card-img-wrapper ">
+                            <img src="images/media-python.jpg " alt="imagem projeto calculo media python ">
+                        </div>
+                        <div class="card-info ">
+                            <h2>Media escolar </h2>
+                            <h3>Python</h3>
+                            <p>A proposta inicial foi desenvolver uma aplicação para input de 4 notas escolares pelo usuário. Em seguida o progrma calcula as notas e devolve a media obtida, juntamente com uma mensagem de Aprovado, Reprovado ou Recuperação.
+                                Deste modo buscou-se agilizar a tarefa do professor em corrigir e calcular as notas.</p>
+                            <button class="btn">Saiba Mais</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-img-wrapper ">
+                            <img src="images/tabuada-js.jpg " alt="imagem projeto Tabuada ">
+                        </div>
+                        <div class="card-info ">
+                            <h2>Jogo da Tabuada</h2>
+                            <h3>HTML5, CSS3 e JavaScript.</h3>
+                            <p>Enquanto ajudava o filho com um trabalho escolar, idealizou esta aplicação, que propõe o sorteio de 2 números aleatórios onde o aluno deverá responder a multiplicação correta entre eles. Se acertar recebe uma mensagem de “Parabéns”,
+                                se errar será exibido a mensagem de “Tente Novamente” e será mostradoo número correto.
+                            </p>
+                            <button class="btn">Saiba Mais</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-img-wrapper ">
+                            <img src="images/portifolio.JPG" alt="Portifólio">
+                        </div>
+                        <div class="card-info ">
+                            <h2>Portifólio</h2>
+                            <h3>HTML, CSS, JavaScript.</h3>
+                            <p>Desenvolveu seu Portifólio Experimental com o estudo de algumas técnicas profissionais e pesquis dos melhores layouts.Assim, realizou a apresentação desta homepage com seus conhecimentos e projetos. Desta forma, além de aplicar
+                                o que aprendeu, poderá apresenta-lo futuramente a possíveis clientes e empresas do ramo de desenvolvimento.</p>
+                            <button class="btn">Saiba Mais</button>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </header>
 
-        <aside class="sidebar">
-            <nav>
-                <ul class="menu">
-                    <li class="menu-item"><a href="#conhecimentos" class="menu-link">Conhecimentos</a>
-                    </li>
-                    <li class="menu-item"><a href="#projetos" class="menu-link">Projetos</a>
-                    </li>
-                    <li class="menu-item"><a href="#contato" class="menu-link">Contato</a>
-                    </li>
-                    <li class="menu-item"><a href="#orcamento" class="menu-link">Orçamento</a>
-                    </li>
-
-                </ul>
-            </nav>
-            <div class="social-media">
-
-                <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-                <a href="https://www.instagram.com/marcio.lima.75873/" target="_blank"><i class="fa fa-instagram"></i></a>
-                <a href="https://www.linkedin.com/in/marcio-lima-45077376/" target="_blank"><i class="fa fa-linkedin"></i></a>
-                <a href="https://github.com/MarcioLima76" target="_blank"><i class="fa fa-github-alt"></i></a>
-
-            </div>
-        </aside>
-
-        <section class="sessao-conhecimentos" id="conhecimentos">
-            <div class="sessao-header">
-                <h1>Conhecimentos</h1>
-            </div>
-            <div class="conhecimentos">
-                <div class="conhecimento">
-                    <div class="conhecimento-header">
-                        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-                        <i class="fa fa-html5 "></i>
-                        <h3>HTML</h3>
-                    </div>
-                    <div class="conhecimento-text">
-                        <p>Conhecimentos em "Hyper Text Marked Language" (Tags, Semântica, Formatações, Listas, Links, disposição de imagens e vídeos).
-                        </p>
+            <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+            <section class="sessao-contato" id="contato">
+                <div class="contato-wrapper">
+                    <div class="contato-left"></div>
+                    <div class="contato-right">
+                        <h1>Contato</h1>
+                        <form>
+                            <div class="input-group">
+                                <input type="text" class="field" id="nome">
+                                <label for="nome" class="field-label">Nome</label>
+                            </div>
+                            <div class="input-group">
+                                <input type="text" class="field" id="email">
+                                <label for="email" class="field-label">E-mail</label>
+                            </div>
+                            <div class="input-group">
+                                <textarea class="field" id="mensagem"></textarea>
+                                <label for="mensagem" class="field-label">Mensagem</label>
+                            </div>
+                            <button type="submit" class="btn btn-submit">Enviar</button>
+                        </form>
                     </div>
                 </div>
-                <div class="conhecimento">
-                    <div class="conhecimento-header">
-                        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-                        <i class="fa fa-css3"></i>
-                        <h3>CSS</h3>
-                    </div>
-                    <div class="conhecimento-text">
-                        <p>Conhecimentos em “Cascading Style Sheets” (Estilos Inline, Internos e Externos).</p>
-                    </div>
-                </div>
-                <div class="conhecimento">
-                    <div class="conhecimento-header">
-                        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-                        <i class="fa fa-react"></i>
-                        <h3>React JS</h3>
-                    </div>
-                    <div class="conhecimento-text">
-                        <p>Conhecimentos em JSX, DOM & DOM Virtual e Componentes do React JS</p>
-                    </div>
-                </div>
-                <div class="conhecimento">
-                    <div class="conhecimento-header">
-                        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-                        <i class="fa fa-js-square"></i>
-                        <h3>Java Script</h3>
-                    </div>
-                    <div class="conhecimento-text">
-                        <p>Conhecimentos em Comandos Básicos , Condições e Repetições, Arrays, Loops e eventos em Java Script.</p>
-                    </div>
-                </div>
-                <div class="conhecimento">
-                    <div class="conhecimento-header">
-                        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-                        <i class="fab fa-python"></i>
-                        <h3>Python</h3>
-                    </div>
-                    <div class="conhecimento-text">
-                        <p> Conhecimentos em Tipos primitivos de saída de dados, Variáveis, Operadores aritméticos, Condicionais, Loops e Repetições em Python.</p>
-                    </div>
-                </div>
-                <div class="conhecimento">
-                    <div class="conhecimento-header">
-                        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-                        <i class="fas fa-database"></i>
-                        <h3>Banco de dados</h3>
-                    </div>
-                    <div class="conhecimento-text">
-                        <p>Conhecimentos em Bancos de dados relacionais: SQL, Structured Query Language. Postgre, SQL Microsoft Workbench.</p>
-                    </div>
-                </div>
-                <div class="conhecimentos-img-wrapper">
-                    <img src="images/conhecimentos.jpg" alt="imagem conhecimentos">
-                </div>
-            </div>
-        </section>
-
-        <div class="sessao-projetos" id="projetos">
-            <div class="sessao-header">
-                <h1>Projetos</h1>
-            </div>
-            <div class="projetos">
-                <div class="card">
-                    <div class=" card-img-wrapper ">
-                        <img src="images/media-python.jpg " alt="imagem projeto calculo media python ">
-                    </div>
-                    <div class="card-info ">
-                        <h2>Media escolar </h2>
-                        <h3>Python</h3>
-                        <p>Programa idealizado quando estava estudando a linguagem Python. A proposta inicial foi desenvolver uma aplicação para input de 4 notas escolares pelo usuário. Em seguida o progrma calcula as notas e devolve a media obtida, juntamente
-                            com uma mensagem de Aprovado, Reprovado ou Recuperação. Deste modo buscou-se agilizar a tarefa do professor em corrigir e calcular as notas.</p>
-                        <button class="btn">Saiba Mais</button>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-img-wrapper ">
-                        <img src="images/tabuada-js.jpg " alt="imagem projeto Tabuada ">
-                    </div>
-                    <div class="card-info ">
-                        <h2>Jogo da Tabuada</h2>
-                        <h3>HTML5, CSS3 e JavaScript.</h3>
-                        <p>Enquanto ajudava o filho com um trabalho escolar envolvendo o estudo da tabuada, idealizou o desenvolvimento desta aplicação. Com o sorteio de 2 números aleatórios o aluno deve responder a multiplicação correta entre eles. Se acertar
-                            recebe uma mensagem de “Parabéns”, se errar será exibido a mensagem de “Tente Novamente” e será mostradoo número correto.
-                        </p>
-                        <button class="btn">Saiba Mais</button>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-img-wrapper ">
-                        <img src="images/portifolio.JPG" alt="Portifólio">
-                    </div>
-                    <div class="card-info ">
-                        <h2>Portifólio</h2>
-                        <h3>HTML, CSS, JavaScript.</h3>
-                        <p>Visando praticar as linguagens estudadas, desenvolveu seu Portifólio Experimental. Com o estudo de algumas técnicas profissionais e pesquisando os melhores layouts realizou a apresentação desta homepage com seus conhecimentos e
-                            projetos. Desta forma, além de aplicar o que aprendeu, poderá apresenta-lo futuramente a possíveis clientes e empresas do ramo de desenvolvimento.</p>
-                        <button class="btn">Saiba Mais</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-        <section class="sessao-contato" id="contato">
-            <div class="contato-wrapper">
-                <div class="contato-left"></div>
-                <div class="contato-right">
-                    <h1>Contato</h1>
+            </section>
+            <section class="sessao-orcamento" id="orcamento">
+                <div class="orcamento-wrapper">
+                    <h1>Faça um orçamento</h1>
                     <form>
-                        <div class="input-group">
-                            <input type="text" class="field" id="nome">
-                            <label for="nome" class="field-label">Nome</label>
+                        <label for="qtde">Qtde de Páginas</label>
+                        <input type="number" min="1" name="qtde" id="qtde">
+                        <label for="JS">Preciso de um script JS</label>
+                        <input type="checkbox" name="js" id="js">
+                        <label>Layout</label>
+                        <div class="group-layout">
+                            <div>
+                                <input type="radio" name="layout" id="layout-sim">
+                                <label for="layout-sim">Preciso de um Layout</label>
+                            </div>
+                            <div>
+                                <input type="radio" name="layout" id="layout-nao">
+                                <label for="layout-nao">Já tenho um  Layout</label>
+                            </div>
                         </div>
-                        <div class="input-group">
-                            <input type="text" class="field" id="email">
-                            <label for="email" class="field-label">E-mail</label>
-                        </div>
-                        <div class="input-group">
-                            <textarea class="field" id="mensagem"></textarea>
-                            <label for="mensagem" class="field-label">Mensagem</label>
-                        </div>
-                        <button type="submit" class="btn btn-submit">Enviar</button>
+                        <label for="prazo">Prazo</label>
+                        <input type="range" name="prazo" id="prazo" min="1" max="10">
+                        <label id="preco">R$0,00</label>
+                        <button class="btn btn-orcamento" type=" submit ">Enviar</button>
                     </form>
                 </div>
-            </div>
-        </section>
-        <section class="sessao-orcamento" id="orcamento">
-            <div class="orcamento-wrapper">
-                <h1>Faça um orçamento</h1>
-                <form>
-                    <label for="qtde">Qtde de Páginas</label>
-                    <input type="number" min="1" name="qtde" id="qtde">
-                    <label for="JS">Preciso de um script JS</label>
-                    <input type="checkbox" name="js" id="js">
-                    <label>Layout</label>
-                    <div class="group-layout">
-                        <div>
-                            <input type="radio" name="layout" id="layout-sim">
-                            <label for="layout-sim">Preciso de um Layout</label>
-                        </div>
-                        <div>
-                            <input type="radio" name="layout" id="layout-nao">
-                            <label for="layout-nao">Já tenho um  Layout</label>
-                        </div>
-                    </div>
-                    <label for="prazo">Prazo</label>
-                    <input type="range" name="prazo" id="prazo" min="1" max="10">
-                    <label id="preco">R$0,00</label>
-                    <button class="btn btn-orcamento" type=" submit ">Enviar</button>
-                </form>
-            </div>
-        </section>
-        <footer>
-            <div class="footer-content">
-                <p>
-                    Copyright &copy; 2021. MNL- Marcio Nogueira deLima. All rights reserved.
-                </p>
-                <div class="social-list">
-                    <ul>
-                        <li><a href="https://www.instagram.com/marcio.lima.75873/" target="_blank"><i class="fa fa-instagram"></i></a></li>
-                        <li><a href="https://www.linkedin.com/in/marcio-lima-45077376/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-                        <li> <a href="https://github.com/MarcioLima76" target="_blank"><i class="fa fa-github-alt"></i></a></li>
-                    </ul>
+            </section>
+            <footer>
+                <div class="footer-content">
+                    <p>
+                        Copyright &copy; 2021. MNL- Marcio Nogueira deLima. All rights reserved.
+                    </p>
+                    <div class="social-list">
+                        <ul>
+                            <li><a href="https://www.instagram.com/marcio.lima.75873/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/marcio-lima-45077376/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                            <li> <a href="https://github.com/MarcioLima76" target="_blank"><i class="fa fa-github-alt"></i></a></li>
+                        </ul>
 
+                    </div>
                 </div>
-            </div>
-        </footer>
-        <a href="" id="link-topo">
-            <i class="fas fa-arrow-up"></i>
-        </a>
+    </section>
+    </footer>
+    <a href="" id="link-topo">
+        <i class="fas fa-arrow-up"></i>
+    </a>
     </div>
 </body>
 <script src="script.js "></script>
