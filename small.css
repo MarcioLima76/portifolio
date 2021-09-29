@@ -9,9 +9,9 @@
 
 .principal {
     position: relative;
-    width: 250px;
+    width: 100%;
     margin: 0 auto;
-    height: 250px;
+    height: 200px;
 }
 
  :root {
@@ -196,7 +196,7 @@ header {
 }
 
 .conhecimentos {
-    font-size: 1.3rem;
+    font-size: 0.5rem;
     display: grid;
     grid-template-columns: repeat(16, 1fr);
     grid-template-rows: repeat(6, 6rem);
@@ -245,7 +245,7 @@ header {
 
 .sessao-header h1 {
     font-family: var(--font-primary);
-    font-size: 3rem;
+    font-size: 0.5rem;
     color: #4b4b4b;
     border-bottom: solid 3px#6a3093;
     margin-bottom: 1.5rem;
@@ -258,17 +258,18 @@ header {
 }
 
 .conhecimento-header i {
-    font-size: 2.5rem;
+    font-size: 0.5rem;
 }
 
 .conhecimento-header h3 {
     font-family: var(--font-secundary);
-    font-size: 2.5rem;
+    font-size: 0.5rem;
     padding-left: 1rem;
 }
 
 .conhecimento-text {
     margin-top: 1rem;
+    font-size: 1rem;
 }
 
 .conhecimentos-img-wrapper {
@@ -375,7 +376,7 @@ header {
 
 .contato-wrapper {
     width: 77%;
-    height: 45rem;
+    height: 40rem;
     padding-left: 3.5rem;
     display: flex;
     box-shadow: 0 2rem 5 rem rgba(0, 0, 0, 0.5);
@@ -405,6 +406,8 @@ header {
 
 .sessao-contato form {
     width: 100%;
+    height: 40rem;
+    padding-left: 3.5rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -417,12 +420,13 @@ header {
 .field {
     background: transparent;
     width: 35rem;
+    height: 40rem;
     border: none;
     align-items: center;
     font-size: 2.5rem;
     font-family: var(--font-secundary);
     border-bottom: 2px dashed#636363;
-    height: 3rem;
+    height: 2rem;
     outline: none;
     margin: 3.5rem 0;
 }
@@ -436,8 +440,8 @@ header {
 .field-label {
     position: absolute;
     left: 0;
-    top: 2rem;
-    font-size: 1.2rem;
+    top: 1rem;
+    font-size: 1rem;
     font-family: var(--font-secundary);
     text-transform: uppercase;
     font-weight: bolder;

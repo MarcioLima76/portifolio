@@ -15,9 +15,9 @@
 
 .principal {
     position: relative;
-    width: 2048px;
+    width: 100%;
     margin: 0 auto;
-    height: 1360px;
+    height: 1024px;
 }
 
  :root {
