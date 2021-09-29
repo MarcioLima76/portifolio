@@ -594,3 +594,10 @@ footer {
     border-radius: 3rem;
     box-shadow: 0 0.1rem 0.6rem#00000009;
 }
+
+@media screen and(min-width: 768px) {
+    principal {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
