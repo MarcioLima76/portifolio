@@ -148,7 +148,7 @@ header {
 
 .menu {
     position: absolute;
-    top: 40%;
+    top: 20%;
     left: 45%;
     transform: translate(-50%, -50%);
 }
@@ -263,7 +263,7 @@ header {
 
 .conhecimento-header h3 {
     font-family: var(--font-secundary);
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     padding-left: 1rem;
 }
 
@@ -317,7 +317,7 @@ header {
 
 .card-info h2 {
     font-family: var(--font-primary);
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 500;
     color: #6a3093;
 }
@@ -365,191 +365,10 @@ header {
     color: black;
 }
 
-.sessao-contato {
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.contato-wrapper {
-    width: 77%;
-    height: 45rem;
-    padding-left: 3.5rem;
-    display: flex;
-    box-shadow: 0 2rem 5 rem rgba(0, 0, 0, 0.5);
-}
-
-.contato-left {
-    width: 25%;
-    background: linear-gradient(rgba(15, 15, 15, 0.6), rgba(22, 22, 22, 0.9)), url(images/contato.jpg);
-    background-size: cover;
-    opacity: 0.9;
-}
-
-.contato-right {
-    width: 65%;
-    background-color: #eee;
-    padding: 1rem 3rem 3rem 3rem;
-}
-
-.sessao-contato h1 {
-    width: 100%;
-    text-align: center;
-    font-family: var(--font-primary);
-    color: #272727;
-    font-size: 3rem;
-    font-weight: lighter;
-}
-
-.sessao-contato form {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.input-group {
-    position: relative;
-}
-
-.field {
-    background: transparent;
-    width: 35rem;
-    border: none;
-    align-items: center;
-    font-size: 2.5rem;
-    font-family: var(--font-secundary);
-    border-bottom: 2px dashed#636363;
-    height: 3rem;
-    outline: none;
-    margin: 3.5rem 0;
-}
-
-.input-group textarea {
-    padding-top: 1rem;
-    max-width: 35rem;
-    max-height: 5;
-}
-
-.field-label {
-    position: absolute;
-    left: 0;
-    top: 2rem;
-    font-size: 1.2rem;
-    font-family: var(--font-secundary);
-    text-transform: uppercase;
-    font-weight: bolder;
-    transition: all 0.3s;
-}
-
-.field:focus~label {
-    top: 0;
-    font-size: 1rem;
-}
-
-.field:focus {
-    border-bottom: 1px solid;
-}
-
-.btn-submit {
-    width: 10rem;
-    font-size: 1.2rem;
-    text-transform: uppercase;
-    height: 3.5rem;
-}
-
-.btn-submit button:hover {
-    opacity: 0.8;
-    color: black;
-}
-
-.sessao-orcamento {
-    width: 100%;
-    height: 100vh;
-    background: url("./images/orcamento.jpg");
-    object-fit: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.orcamento-wrapper {
-    width: 70%;
-    height: 60%;
-    background-color: #ffffff99;
-    border-radius: 10px;
-    box-shadow: 0 2rem 5 rem rgba(0, 0, 0, 0.5);
-    position: relative;
-}
-
-.sessao-orcamento h1 {
-    position: absolute;
-    top: -2.5rem;
-    left: 5rem;
-    background: #6a3093;
-    background: -webkit-linear-gradient(to right, #a044ff, #6a3093);
-    background: linear-gradient(to left, #a044ff, #6a3093);
-    color: white;
-    font-family: var(--font-primary);
-    font-size: 3rem;
-    font-weight: lighter;
-    box-shadow: 0 0.1rem 0.3remrgba(0, 0, 0, 0.5);
-    border-radius: 10px;
-}
-
-.sessao-orcamento form {
-    box-shadow: 0 0.1rem 0.3rem rgba(0, 0, 0, 0.5);
-    margin: 4rem;
-    display: grid;
-    grid-template-columns: auto 1fr;
-    column-gap: 3rem;
-    row-gap: 2rem;
-}
-
-.sessao-orcamento label {
-    font-family: var(--font-secundary);
-    font-size: 2.5rem;
-    font-weight: bold;
-}
-
-.sessao-orcamento input[type="number"] {
-    font-family: var(--font-secundary);
-    width: 4rem;
-    font-size: 2rem;
-    font-weight: bolder;
-    outline: none;
-    border-radius: 10px;
-    border: none;
-    padding: 1rem;
-}
-
-.sessao-orcamento input[type=radio] {
-    border: 0px;
-    width: 100%;
-    height: 2em;
-}
-
-.sessao-orcamento input[type=checkbox] {
-    border: 0px;
-    width: 100%;
-    height: 2em;
-}
-
-.btn-orcamento {
-    text-transform: uppercase;
-    padding: 1rem;
-    cursor: pointer;
-    grid-column: 2;
-    width: 10rem;
-    left: 5rem;
-    font-size: 1.2rem;
-}
-
 footer {
     width: 100%;
     height: 7rem;
+    bottom: 2rem;
     background-color: #17181b;
     display: flex;
     justify-content: center;
@@ -565,7 +384,7 @@ footer {
 .footer-content p {
     font-family: var(--font-secundary);
     color: #eee;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 .social-list a {
